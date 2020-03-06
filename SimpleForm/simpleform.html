@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .font {
+            font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+    </style>
+    <title>A Simple Form</title>
+</head>
+<body>
+<form class="font" action="simpleform.html" method="get">
+    <h2>Order Form</h2>
+    What would you like to buy?<br><br>
+    <select>
+        <option name="buy" value="A">Hamburger</option>
+        <option name="buy" value="B">Doner Kebab</option>
+        <option name="buy" value="C">Sandwich</option>
+        <option name="buy" value="D">Spaghetti</option>
+        <option name="buy" value="E">Your Life</option>
+    </select>
+    <br><br>
+    How many would you like to order?<br><br>
+    <input type="radio" name="ord" value="10"/>1 - $10<br>
+    <input type="radio" name="ord" value="20"/>2 - $20<br>
+    <input type="radio" name="ord" value="25"/>3 - $25
+    <br><br>
+    <p>Name <span style="color: red">*</span></p>
+    <input type="text" name="name" placeholder="FirstName">
+    <input type="text" name="name" placeholder="LastName">
+    <br><br>
+    Email<br><br>
+    <input type="text" size="45">
+    <br><br>
+    Phone Number<br><br>
+    <input type="text" name="phone1" size="3"> - <input type="text" name="phone2" size="3"> - <input type="text" name="phone3" size="3">
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
